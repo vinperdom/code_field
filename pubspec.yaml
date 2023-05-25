@@ -12,7 +12,10 @@ dependencies:
     sdk: flutter
   linked_scroll_controller: ^0.2.0
   highlight: ^0.7.0
-  flutter_highlight: ^0.7.0
+  flutter_highlight:
+    git:
+      url: https://github.com/vinperdom/highlight.dart.git
+      path: flutter_highlight
 
 dev_dependencies:
   flutter_test:
